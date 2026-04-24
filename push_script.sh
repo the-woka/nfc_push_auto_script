@@ -1,7 +1,7 @@
 #!/bin/bash
 cd ~/Documents/auto_push_github_nfc 
 
-echo "Start Pushing the Code! - Second Try"
+echo "Start Pushing the Code!"
 
 read -p "Input commit message: " commit_msg
 if [ -z "$commit_msg" ]; then
@@ -16,4 +16,4 @@ git add .
 git commit -m "$commit_msg"
 git push -u origin "$branch_name"
 
-echo "Done Push! - Second Try"
+echo "Done Push!"
