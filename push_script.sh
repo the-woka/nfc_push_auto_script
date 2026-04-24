@@ -14,6 +14,6 @@ branch_name=${branch_name:-main}
 
 git add .
 git commit -m "$commit_msg"
-git push -u origin b"$branch_name"
+git push -u origin "$branch_name"
 
 echo "Done Push! - Second Try"
