@@ -1,4 +1,6 @@
 #!/bin/bash
+cd ~/Documents/auto_push_github_nfc 
+
 echo "Start Pushing the Code!"
 
 read "Input commit message: " commit_msg
